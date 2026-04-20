@@ -1,6 +1,6 @@
 # MT Evaluation Metric Based on Perplexity
 
-An automatic Machine Translation evaluation metric that combines [BLASER](https://github.com/facebookresearch/stopes/tree/main/stopes/eval/blaser) scores (scale 1–5) with perplexity to penalise disfluent translations. A perplexity-derived confidence weight modulates BLASER so that segments with high perplexity (low fluency) receive lower combined scores.
+An automatic Machine Translation evaluation metric that combines [BLASER](https://github.com/facebookresearch/stopes/tree/main/stopes/eval/blaser) scores (scale 1–5) with perplexity to penalize disfluent translations. A perplexity-derived confidence weight modulates BLASER (or whatever MT metric) so that segments with high perplexity (low fluency) receive lower combined scores.
 
 ## Formula
 
